@@ -1,0 +1,6 @@
+<p><strong>Comments <%= @article.comments.count %></strong></p>
+<% @article.comments.each_with_index do |comment, index| %>
+  <p>
+    <%= "#{index + 1}, #{comment.body}" %>
+  </p>
+<% end %>

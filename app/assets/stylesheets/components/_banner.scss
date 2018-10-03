@@ -1,0 +1,30 @@
+.banner-wrapper {
+  background-image: linear-gradient(-225deg, rgba(39,174,96,0.8) 0%, rgba(0,255,0,0.2) 50%), asset-url('background-1');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.btn-banner  {
+  position: relative;
+  font-size: 1.2em;
+  border-color: #9b59b6;
+  background-color: #9b59b6;
+  transition: all 0.1s ease-in-out;
+}
+.btn-banner:hover {
+  background-color: #8e44ad;
+  border-color: #8e44ad;
+  top: 1px;
+  left: 1px;
+}
+
+.max-width-content {
+  max-width: auto;
+}

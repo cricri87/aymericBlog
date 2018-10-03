@@ -1,0 +1,39 @@
+
+.article-wrapper {
+  margin: auto;
+  width: 400px;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 5px 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.avatar-large {
+  margin: 10px auto;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid rgba(220,224,244,0.4);
+}
+
+
+.message-body {
+  padding-left: 10px;
+  font-size: 13px;
+  color: rgba(0,0,0,0.7);
+}
+.card-created {
+  font-size: 12px;
+  padding-bottom: 5px;
+  color: rgba(0,0,0,0.4);
+}
+
+
