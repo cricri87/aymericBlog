@@ -1,10 +1,18 @@
 <div class="container text-center">
   <h1>Article</h1>
+
   <div class="article-form-wrapper">
     <h4><%= @article.title %></h4>
     <p><%= @article.text %></p>
+     <% if  @article.photo.present? %>
+    <%= cl_image_tag @article.photo, height: 300, width: 400, crop: :fill %>
+  <% end %>
 
     <%= render 'comments/comment' %>
     <%= render 'comments/comment_form' %>
   </div>
+
 </div>
+
+
+
